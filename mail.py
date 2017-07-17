@@ -14,7 +14,7 @@ password = creds[0].split('\n')[0]
 #reciepents list
 receipents_list = ['dama.bhargavsai@gmail.com']
 if len(receipents_list) > 1:
-    receipents_list = set(receipents_list))
+    receipents_list = set(receipents_list)
     receipents=','.join(str(acc) for acc in receipents_list)
 elif len(receipents_list) == 1:
     receipents=recipents_list[0]
